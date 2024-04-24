@@ -20,10 +20,10 @@ output      reg            SPI_CS_N
 	reg [2:0]  current_state;
 	reg [2:0]  next_state;
 
-	localparam IDLE 			 = 4'b0000;
+	localparam IDLE 	 = 4'b0000;
 	localparam WAIT_1SEC     = 4'b0001;
-	localparam WRITE 		    = 4'b0010;
-	localparam READ 		    = 4'b0011;
+	localparam WRITE 	 = 4'b0010;
+	localparam READ 	 = 4'b0011;
 	localparam ACKN          = 4'B0100;
       
 
