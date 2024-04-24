@@ -1,1 +1,0 @@
-# FPGA-DE10-LITE
