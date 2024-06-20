@@ -11,14 +11,14 @@ output reg [15:0] pachet_trimis
 );
 
 
-localparam BW_RATE_ADDR       =8'b0010_1100;
+localparam BW_RATE_ADDR       =6'b10_1100;
 localparam BW_RATE_VALUE      =8'b0000_1011;
-localparam POWER_CTL_ADDR     =8'b0010_1101;
+localparam POWER_CTL_ADDR     =6'b10_1101;
 localparam POWER_CTL_VALUE    =8'b0000_1000;
-localparam DATAFORMAT_ADDR		=8'b0011_0001; 
+localparam DATAFORMAT_ADDR		=6'b11_0001; 
 localparam DATAFORMAT_VALUE   =8'b0000_1100;
-//localparam DATAFORMAT_VALUE   =8'b0000_0000;
-//localparam DEVID_READ         = 4'b0100;
+//localparam DATAFORMAT_VALUE =8'b0000_0000;
+//localparam DEVID_READ       = 4'b0100;
 localparam DEVID_ADDR			=6'b00_0000;
 localparam MB				    	=1'b0; 
 localparam WR					   =1'b0;
